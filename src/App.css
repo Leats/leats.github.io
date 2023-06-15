@@ -61,9 +61,10 @@
 @media only screen and (max-width: 600px) {
   .Sidebar {
     width: 100%;
-    height: 350px;
+    height: 550px;
     position: inherit;
   }
+
   .Works {
     margin-left: 0;
     text-align: center;
