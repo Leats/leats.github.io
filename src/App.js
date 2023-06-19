@@ -10,6 +10,7 @@ import ACNHFish from './images/acnhfish.png'
 import AO3Statistics from './images/ao3statistics.png'
 import ColorScheme from './images/colorschemedesigner.png'
 import SpotifyHistory from './images/spotifyhistory.png'
+import SpotifyHistoryViewer from './images/spotifyhistoryviewer.png'
 
 class App extends React.Component {
   render() {
@@ -133,6 +134,16 @@ class App extends React.Component {
                   recently played spotify tracks via Spotify's API. When run
                   regularly this can be used to create detailed statistics about
                   the listening history.
+                </Card.Description>
+              </Card.Content>
+            </Card>
+            <Card href="https://github.com/Leats/spotify-historyviewer">
+              <Image src={SpotifyHistoryViewer} wrapped ui={false} />
+              <Card.Content>
+                <Card.Header>spotify-historyviewer</Card.Header>
+                <Card.Meta>Python, Jupyter Notebook, Pandas, Matplotlib, Seaborn</Card.Meta>
+                <Card.Description>
+                  Current Work in Progress. An IPython Notebook created to visualize data taken from Spotify.
                 </Card.Description>
               </Card.Content>
             </Card>
