@@ -34,8 +34,8 @@ class App extends React.Component {
               twitter
             </a>
             <div className="introduction">
-              Nice to meet you, I'm Leats! <br /> I'm currently completing my Master's Degree in Computer Science, with a focus on Intelligent Systems.<br />
-              Next to my previous work as Full Stack developer I also enjoy doing small side projects, which you can find here!<br />
+              Nice to meet you, I'm Leats! <br /> I'm a software developer with a Master's Degree in Computer Science.<br />
+              I also enjoy doing small side projects, which you can find here!<br />
               <br />
               Apart from programming, some of my hobbies are drawing and 3D printing :)
 
